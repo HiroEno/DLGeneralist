@@ -2,7 +2,7 @@
 
 let eraseState = false;
 
-const searchGlossary = glossary.slice().filter((x) => x.content !== "ーーーーー");
+const searchGlossary = glossary.slice().filter((x) => x.target !== "ーーーーー");
 
 /**
  * @returns {} 検索ワード、検索件数、検索された用語集の用語(target)と内容(content)を表示
