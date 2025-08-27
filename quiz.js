@@ -35,7 +35,7 @@ let reviewComment = "";
 
 // クイズ総ターゲットの配列作成
 // const quizAllArrays_ = glossary.slice();
-const quizAllArrays = glossary.slice().filter((x) => x.content !== "ーーーーー");
+const quizAllArrays = glossary.slice().filter((x) => x.target !== "ーーーーー");
 
 
 // htmlコールバック関数の作成
