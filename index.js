@@ -1,6 +1,6 @@
 `use strict`
 
-const buttonsGlossary = glossary.slice().filter((x) => x.content !== "ーーーーー");
+const buttonsGlossary = glossary.slice().filter((x) => x.target !== "ーーーーー");
 createButtons(buttonsGlossary);
 
 /**
